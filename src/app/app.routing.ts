@@ -1,7 +1,7 @@
 import {RouterModule, Routes} from "@angular/router";
-import {ProjectComponent} from "./project/project.component";
-import {DetailComponent} from "./detail/detail.component";
-import {ComparisonComponent} from "./comparison/comparison.component";
+import {ProjectComponent} from "./components/project/project.component";
+import {DetailComponent} from "./components/detail/detail.component";
+import {ComparisonComponent} from "./components/comparison/comparison.component";
 const appRoutes: Routes = [
   {path: '', component: ProjectComponent, pathMatch: 'full'},
   {path: 'detail', component: DetailComponent},

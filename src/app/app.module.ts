@@ -3,10 +3,11 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { ProjectComponent } from './project/project.component';
-import { DetailComponent } from './detail/detail.component';
-import { ComparisonComponent } from './comparison/comparison.component';
+import { ProjectComponent } from './components/project/project.component';
+import { DetailComponent } from './components/detail/detail.component';
+import { ComparisonComponent } from './components/comparison/comparison.component';
 import {routing} from "./app.routing";
+import {MaterialModule} from "./modules/material.module";
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import {routing} from "./app.routing";
   ],
   imports: [
     BrowserModule,
+    MaterialModule,
     routing
   ],
   providers: [],
