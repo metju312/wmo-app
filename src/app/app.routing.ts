@@ -4,8 +4,8 @@ import {DetailComponent} from "./detail/detail.component";
 import {ComparisonComponent} from "./comparison/comparison.component";
 const appRoutes: Routes = [
   {path: '', component: ProjectComponent, pathMatch: 'full'},
-  {path: 'login', component: DetailComponent},
-  {path: 'rules', component: ComparisonComponent}
+  {path: 'detail', component: DetailComponent},
+  {path: 'comparison', component: ComparisonComponent}
 ];
 
 export const routing = RouterModule.forRoot(appRoutes);
