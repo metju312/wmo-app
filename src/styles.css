@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.title{
+  color: #28328c;
+  font-size: 1.7em;
+  font-weight: 700;
+  padding: 10px 30px 10px;
+  text-align: center;
+  letter-spacing: 1px;
+}
