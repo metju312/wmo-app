@@ -20,435 +20,435 @@ export class ProjectComponent implements OnInit {
   ngOnInit(): void {
     this.roles = [{
       name: "Process Engineer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "	Technical Writer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Tool Specialist",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Change Control Manager",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Configuration Manager",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Integrator",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Management Reviewer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Project Manager",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Review Coordinator",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Reviewer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "System Administrator",
-      validity: "required"
+      validity: "optional"
     },{
       name: "System Analyst",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Technical Reviewer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "	Test Analyst",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Business Architect",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Business Designer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Business-Process Analyst",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Capsule Designer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Database Designer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Designer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Implementer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Integrator",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Security Architect",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Software Architect",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Technical Reviewer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Test Designer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "User-Interface Designer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Test Manager",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Tester",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Course Developer",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Graphic Artist",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Deployment Manager",
-      validity: "required"
+      validity: "optional"
     }];
 
     this.tasks = [{
       name: "Develop Development Case",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Launch Development Process",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Prepare Guidelines for the Project",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Prepare Templates for the Project",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Develop Manual Styleguide",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Set Up Tools",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Verify Tool Configuration and Installation",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Create Development Workspace",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Deliver Changes",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Make Changes",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Submit Change Request",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Update Change Request",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Update Workspace",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Confirm Duplicate or Rejected CR",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Review Change Requests",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Create Deployment Unit",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Perform Configuration Audit",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Report on Configuration Status",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Create Baselines",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Promote Baselines",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Iteration Acceptance Review",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Iteration Evaluation Criteria Review",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Project Review Authority (PRA) Project Review",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Acquire Staff",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Assess Iteration",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Handle Exceptions and Problems",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Identify and Assess Risks",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Initiate Iteration",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Monitor Project Status",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Report Status",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Schedule and Assign Work",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Organize Review",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Conduct Review",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Support Development",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Manage Dependencies",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Structure the Use-Case Model",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Review Requirements",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Verify Changes in Build",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Functional Area Analysis",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Identify and Associate Services to Goals",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Identify Business Goals and KPIs",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Refine a Business Use-Case",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Business Process Analysis",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Business Rule Analysis",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Functional Area Analysis",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Capsule Design",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Database Design",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Specify Data Migration",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Data Model Analysis",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Message Design",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Class Design",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Component Specification (SOA)",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Design Testability Elements",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Document Service Realization Decisions",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Identify and Associate Services to Goals",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Operation Analysis",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Operation Design",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Service Specification",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Subsystem Design",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Subsystem Design (SOA)",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Use-Case Analysis",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Use-Case Design",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Apply Services Litmus Tests",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Business Use Case Analysis (SOA)",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Existing Asset Analysis",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Analyze Runtime Behavior",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Execute Developer Tests",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Implement Design Elements",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Implement Developer Test",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Implement Testability Elements",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Component Specification (SOA)",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Document Service Realization Decisions",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Plan Subsystem Integration",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Identify Security Patterns",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Assess Viability of Architectural Proof-of-Concept",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Construct Architectural Proof-of-Concept (SOA)",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Identify Design Elements",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Define Testability Elements",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Design the User Interface",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Prototype the User-Interface",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Integrate Subsystem",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Integrate System",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Define Assessment and Traceability Needs",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Define Test Details",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Determine Test Results",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Identify Test Ideas",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Define Test Approach",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Define Test Environment Configurations",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Identify Testability Mechanisms",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Structure the Test Implementation",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Assess and Advocate Quality",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Assess and Improve Test Effort",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Obtain Testability Commitment",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Analyze Test Failure",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Execute Test Suite",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Implement Test",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Implement Test Suite",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Develop Training Materials",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Create Product Artwork",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Develop Installation Work Products ",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Develop Support Materials",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Iteration Plan Review",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Develop Business Case",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Develop Iteration Plan",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Write Release Notes",
-      validity: "required"
+      validity: "optional"
     }];
 
 
     this.products = [{
       name: "Development Case",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Development Process",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Project-Specific Guidelines",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Project-Specific Templates",
-      validity: "required"
+      validity: "optional"
     },{
       name: "Change Request",
-      validity: "required"
+      validity: "optional"
     }];
 
 
