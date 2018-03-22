@@ -8,6 +8,7 @@ import { DetailComponent } from './components/detail/detail.component';
 import { ComparisonComponent } from './components/comparison/comparison.component';
 import {routing} from "./app.routing";
 import {MaterialModule} from "./modules/material.module";
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import {MaterialModule} from "./modules/material.module";
   imports: [
     BrowserModule,
     MaterialModule,
+    BrowserAnimationsModule,
     routing
   ],
   providers: [],

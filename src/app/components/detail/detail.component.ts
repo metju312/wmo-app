@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Project} from "../../models/project";
 
+
 @Component({
   selector: 'app-detail',
   templateUrl: './detail.component.html',

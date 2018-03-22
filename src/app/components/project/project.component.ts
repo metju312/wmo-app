@@ -453,7 +453,7 @@ export class ProjectComponent implements OnInit {
 
 
 
-    this.project.roles.push({name: '', validity:''});
+    //this.project.roles.push({name: '', validity:''});
 
 
 
