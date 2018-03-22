@@ -13,7 +13,7 @@ export class ProjectComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.project.roles.push({name: '', validity:''});
+    //this.project.roles.push({name: '', validity:''});
 
     // var projects = [{
     //   id: 1,
