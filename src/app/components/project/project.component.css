@@ -1,13 +1,13 @@
-.example-container {
-  display: flex;
-  flex-direction: column;
-  max-height: 500px;
-  min-width: 300px;
+details-container {
+    width: 500px;
 }
 
-.mat-table {
-  overflow: auto;
-  max-height: 500px;
+div {
+    background=color:blue;
 }
 
-
+comparison-containter {
+    width: 5000px;
+    color: red;
+    overflow:scroll;
+}

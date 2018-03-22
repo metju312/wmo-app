@@ -1,0 +1,15 @@
+.details-container {
+    width: 500px;
+    display: inline-block;
+    margin: 20px;
+}
+
+div {
+    background=color:blue;
+}
+
+.comparison-containter {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProjectDataStorage } from '../../services/projectDataStorage';
 
 @Component({
   selector: 'app-comparison',
@@ -6,8 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comparison.component.css']
 })
 export class ComparisonComponent implements OnInit {
-
-  constructor() { }
+    projects: Array<any>;
+    constatns: any;
+    constructor(private projectStorage: ProjectDataStorage) {
+        this.projects = this.projectStorage.getUserData();
+        this.constatns = this.projectStorage.getConstants();
+    }
 
   ngOnInit() {
   }
