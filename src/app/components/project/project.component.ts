@@ -449,35 +449,247 @@ export class ProjectComponent implements OnInit {
     },{
       name: "Change Request",
       validity: "optional"
+    },{
+      name: "Manual Styleguide",
+      validity: "optional"
+    },{
+      name: "Tools",
+      validity: "optional"
+    },{
+      name: "Workspace",
+      validity: "optional"
+    },{
+      name: "Project Repository",
+      validity: "optional"
+    },{
+      name: "Configuration Audit Findings",
+      validity: "optional"
+    },{
+      name: "Configuration Management Plan",
+      validity: "optional"
+    },{
+      name: "Deployment Unit",
+      validity: "optional"
+    },{
+      name: "Project Measurements",
+      validity: "optional"
+    },{
+      name: "Build",
+      validity: "optional"
+    },{
+      name: "Review Record",
+      validity: "optional"
+    },{
+      name: "Business Case",
+      validity: "optional"
+    },{
+      name: "Issues List",
+      validity: "optional"
+    },{
+      name: "Iteration Assessment",
+      validity: "optional"
+    },{
+      name: "Iteration Plan",
+      validity: "optional"
+    },{
+      name: "Measurement Plan",
+      validity: "optional"
+    },{
+      name: "Problem Resolution Plan",
+      validity: "optional"
+    },{
+      name: "Product Acceptance Plan",
+      validity: "optional"
+    },{
+      name: "Quality Assurance Plan",
+      validity: "optional"
+    },{
+      name: "Risk List",
+      validity: "optional"
+    },{
+      name: "Risk Management Plan",
+      validity: "optional"
+    },{
+      name: "Software Development Plan",
+      validity: "optional"
+    },{
+      name: "Status Assessment",
+      validity: "optional"
+    },{
+      name: "Work Order",
+      validity: "optional"
+    },{
+      name: "Development Infrastructure",
+      validity: "optional"
+    },{
+      name: "Glossary",
+      validity: "optional"
+    },{
+      name: "Requirements Attributes",
+      validity: "optional"
+    },{
+      name: "Requirements Management Plan",
+      validity: "optional"
+    },{
+      name: "Stakeholder Requests",
+      validity: "optional"
+    },{
+      name: "Storyboard",
+      validity: "optional"
+    },{
+      name: "Supplementary Specifications",
+      validity: "optional"
+    },{
+      name: "Use-Case Model",
+      validity: "optional"
+    },{
+      name: "Use-Case Package",
+      validity: "optional"
+    },{
+      name: "Vision",
+      validity: "optional"
+    },{
+      name: "Test Results",
+      validity: "optional"
+    },{
+      name: "Actor",
+      validity: "optional"
+    },{
+      name: "Analysis Class",
+      validity: "optional"
+    },{
+      name: "Analysis Model",
+      validity: "optional"
+    },{
+      name: "Architectural Proof-of-Concept",
+      validity: "optional"
+    },{
+      name: "Business Analysis Model",
+      validity: "optional"
+    },{
+      name: "Business Domain",
+      validity: "optional"
+    },{
+      name: "Business Architecture Document",
+      validity: "optional"
+    },{
+      name: "Business Goal",
+      validity: "optional"
+    },{
+      name: "Business Use Case Model",
+      validity: "optional"
+    },{
+      name: "Business Vision",
+      validity: "optional"
+    },{
+      name: "Data Migration Specification",
+      validity: "optional"
+    },{
+      name: "Data Model",
+      validity: "optional"
+    },{
+      name: "Deployment Model",
+      validity: "optional"
+    },{
+      name: "Design Model",
+      validity: "optional"
+    },{
+      name: "Developer Test",
+      validity: "optional"
+    },{
+      name: "Goal-Service Model",
+      validity: "optional"
+    },{
+      name: "Implementation Element",
+      validity: "optional"
+    },{
+      name: "Implementation Model",
+      validity: "optional"
+    },{
+      name: "Implementation Subsystem",
+      validity: "optional"
+    },{
+      name: "Integration Build Plan",
+      validity: "optional"
+    },{
+      name: "Navigation Map",
+      validity: "optional"
+    },{
+      name: "Reference Architecture",
+      validity: "optional"
+    },{
+      name: "Service Model",
+      validity: "optional"
+    },{
+      name: "Software Architecture Document",
+      validity: "optional"
+    },{
+      name: "Software Requirement",
+      validity: "optional"
+    },{
+      name: "Supplementary Business Specification",
+      validity: "optional"
+    },{
+      name: "Testability Element",
+      validity: "optional"
+    },{
+      name: "Test Automation Architecture",
+      validity: "optional"
+    },{
+      name: "Test Case",
+      validity: "optional"
+    },{
+      name: "Test Data",
+      validity: "optional"
+    },{
+      name: "Test Interface Specification",
+      validity: "optional"
+    },{
+      name: "Test Log",
+      validity: "optional"
+    },{
+      name: "Test Strategy",
+      validity: "optional"
+    },{
+      name: "Test Stub",
+      validity: "optional"
+    },{
+      name: "Use Case",
+      validity: "optional"
+    },{
+      name: "User-Interface Prototype",
+      validity: "optional"
+    },{
+      name: "Workload Analysis Model",
+      validity: "optional"
+    },{
+      name: "Test Environment Configuration",
+      validity: "optional"
+    },{
+      name: "Test Evaluation Summary",
+      validity: "optional"
+    },{
+      name: "Test-Ideas List",
+      validity: "optional"
+    },{
+      name: "Test Suite",
+      validity: "optional"
+    },{
+      name: "Bill of Materials",
+      validity: "optional"
+    },{
+      name: "Deployment Plan",
+      validity: "optional"
+    },{
+      name: "Installation Artifacts",
+      validity: "optional"
+    },{
+      name: "Product Artwork",
+      validity: "optional"
+    },{
+      name: "User Support Material",
+      validity: "optional"
     }];
-
-
-
-    //this.project.roles.push({name: '', validity:''});
-
-
-
-
-
-
-    // var projects = [{
-    //   id: 1,
-    //   name: "Project 1",
-    //   description: "Opis projektu 1",
-    //   products: [{
-    //     name: "Nazwa produktu 1",
-    //     description: "Opis produktu 1"
-    //   }],
-    //   tasks: [{
-    //     name: "Nazwa zadania 1",
-    //     description: "Opis zadanina 1"
-    //   }],
-    //   roles: [{
-    //     name: "Nazwa roli 1",
-    //     description: "Opis roli 1"
-    //   }]
-    // }];
-    //this.projectsList.push(projects);
   }
 
   displayedColumns = ['name'];
