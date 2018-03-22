@@ -13,6 +13,8 @@ export class ProjectComponent implements OnInit {
 
   ngOnInit(): void {
 
+    this.project.roles.push({name: '', validity:''});
+
     // var projects = [{
     //   id: 1,
     //   name: "Project 1",
