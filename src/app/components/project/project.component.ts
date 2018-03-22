@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Project} from "../../models/project";
 
 @Component({
   selector: 'app-project',
@@ -6,7 +7,30 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./project.component.css']
 })
 export class ProjectComponent implements OnInit {
+  public projectsList: Array<Project> = [];
+  public project: Project = new Project();
+
+
   ngOnInit(): void {
+
+    // var projects = [{
+    //   id: 1,
+    //   name: "Project 1",
+    //   description: "Opis projektu 1",
+    //   products: [{
+    //     name: "Nazwa produktu 1",
+    //     description: "Opis produktu 1"
+    //   }],
+    //   tasks: [{
+    //     name: "Nazwa zadania 1",
+    //     description: "Opis zadanina 1"
+    //   }],
+    //   roles: [{
+    //     name: "Nazwa roli 1",
+    //     description: "Opis roli 1"
+    //   }]
+    // }];
+    //this.projectsList.push(projects);
   }
 
   displayedColumns = ['name'];
@@ -18,17 +42,17 @@ export interface Element {
 }
 
 const ELEMENT_DATA: Element[] = [
-  {name: 'Projekt 1'},
-  {name: 'Projekt 2'},
-  {name: 'Projekt 3'},
-  {name: 'Projekt 4'},
-  {name: 'Projekt 5'},
-  {name: 'Projekt 6'},
-  {name: 'Projekt 7'},
-  {name: 'Projekt 8'},
-  {name: 'Projekt 9'},
-  {name: 'Projekt 10'},
-  {name: 'Projekt 11'},
-  {name: 'Projekt 12'},
-  {name: 'Projekt 13'}
+  {name: 'Project 1'},
+  {name: 'Project 2'},
+  {name: 'Project 3'},
+  {name: 'Project 4'},
+  {name: 'Project 5'},
+  {name: 'Project 6'},
+  {name: 'Project 7'},
+  {name: 'Project 8'},
+  {name: 'Project 9'},
+  {name: 'Project 10'},
+  {name: 'Project 11'},
+  {name: 'Project 12'},
+  {name: 'Project 13'}
 ];

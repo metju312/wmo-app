@@ -1,4 +1,33 @@
-<p>
-DETALE
-</p>
-<button class="" routerLink="" aria-hidden="true">cofnij</button>
+<mat-card>
+  <div class="title">Details</div>
+  <div class="example-container mat-elevation-z8">
+    <mat-list>
+      <h3 mat-subheader>Folders</h3>
+      <mat-list-item *ngFor="let folder of folders">
+        <mat-icon mat-list-icon>folder</mat-icon>
+        <h4 mat-line>{{folder.name}}</h4>
+        <p mat-line> {{folder.updated | date}} </p>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+
+      <h3 mat-subheader>Folders</h3>
+      <mat-list-item *ngFor="let folder of folders">
+        <mat-icon mat-list-icon>folder</mat-icon>
+        <h4 mat-line>{{folder.name}}</h4>
+        <p mat-line> {{folder.updated | date}} </p>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+
+      <h3 mat-subheader>Folders</h3>
+      <mat-list-item *ngFor="let folder of folders">
+        <mat-icon mat-list-icon>folder</mat-icon>
+        <h4 mat-line>{{folder.name}}</h4>
+        <p mat-line> {{folder.updated | date}} </p>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+
+    </mat-list>
+  </div>
+</mat-card>
+<button mat-raised-button color="primary" routerLink="" aria-hidden="true">Back</button>
+

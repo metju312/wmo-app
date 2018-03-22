@@ -1,7 +1,6 @@
 export class Product {
-  id: String;
   name: String;
-  description: String;
+  validity: String;
 
   constructor() {
   }

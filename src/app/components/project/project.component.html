@@ -1,23 +1,19 @@
 <mat-card>
-  <div class="title">LISTA PROJEKTOW</div>
+  <div class="title">PROJECTS</div>
   <div class="example-container mat-elevation-z8">
     <mat-table #table [dataSource]="dataSource">
-
-      <!-- Name Column -->
       <ng-container matColumnDef="name">
         <mat-header-cell *matHeaderCellDef>Avalaible projects </mat-header-cell>
         <mat-cell *matCellDef="let element">
           {{element.name}}
-          <mat-checkbox>To compare</mat-checkbox>
+          <mat-checkbox color="primary"></mat-checkbox>
           <button mat-raised-button color="primary" routerLink="/detail" aria-hidden="true">detail</button>
         </mat-cell>
       </ng-container>
-
       <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
       <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
     </mat-table>
   </div>
-
   <div class="button-row">
     <button mat-raised-button color="primary" routerLink="/comparison" aria-hidden="true">comparison</button>
   </div>
