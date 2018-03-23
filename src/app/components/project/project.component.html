@@ -1,13 +1,12 @@
 <mat-card class="comparison-containter">
   <div class="title">Projects</div>
-  <div class="details-container mat-elevation-z8" *ngFor='let project of projects ; let i = index'>
+  <div class="details-container mat-elevation-z8" *ngFor='let project of projects; let i = index'>
     <mat-list>
-      <div>
+      <div title="{{project.description}}">
         <h4 mat-line>{{project.name}}</h4>
-        <mat-checkbox color="primary"></mat-checkbox>
+        <mat-checkbox (click)="checked(i)" color="primary"></mat-checkbox>
         <button mat-raised-button color="primary" (click)="showDetails(i)" aria-hidden="true">details</button>
       </div>
-
     </mat-list>
   </div>
   <div class="button-row">

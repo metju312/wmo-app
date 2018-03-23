@@ -23,8 +23,14 @@ export class ProjectComponent implements OnInit {
               private router: Router,) {
     this.projectStorage.saveUserData(ELEMENT_DATA);
     this.projects = this.projectStorage.getUserData();
-
+    this.compareList = [false, false, false, false, false, false, false, false, false, false];
   }
+
+  checked(i: number) {
+    this.compareList[i] = !this.compareList[i];
+    this.projectStorage.saveChosenList(this.compareList);
+
+  };
 
   compare() {
     this.router.navigate(['/comparison'])
@@ -32,11 +38,13 @@ export class ProjectComponent implements OnInit {
 
   showDetails(chosenProject: number) {
     this.projectStorage.saveDetail(chosenProject);
-    this.router.navigate(['/detail'] )
+    this.router.navigate(['/detail'])
   }
 
   ngOnInit(): void {
-    this.compareList = null;
+    // for(let checkbox of this.compareList){
+    //   checkbox = false;
+    // }
     this.roles = [
       {
         name: "Process Engineer",
@@ -733,7 +741,85 @@ export interface Element {
 const ELEMENT_DATA: Element[] = [
   {
     name: 'Prosty manager czasu pracy',
-    description: 'Prosta aplikacja webowa pozwalająca na śledzenie i zarządzanie czasem pracy, projekt tworzony przez jedną sobę',
+    description: 'Prosta aplikacja webowa pozwalająca na śledzenie i zarządzanie czasem pracy, projekt tworzony przez jedną osobę',
+    roles: [
+      {id: 18, validity: 2},
+      {id: 19, validity: 3},
+      {id: 20, validity: 3},
+      {id: 26, validity: 3},
+    ],
+    tasks: [
+      {id: 46, validity: 2},
+      {id: 50, validity: 3},
+      {id: 67, validity: 3},
+      {id: 78, validity: 2},
+      {id: 68, validity: 1},
+      {id: 66, validity: 2},
+    ],
+    products: [
+      {id: 51, validity: 2},
+      {id: 7, validity: 3},
+      {id: 56, validity: 3},
+      {id: 60, validity: 1},
+      {id: 54, validity: 1},
+      {id: 71, validity: 2},
+    ],
+  },
+  {
+    name: 'Prosty manager czasu pracy 2',
+    description: 'Prosta aplikacja webowa pozwalająca na śledzenie i zarządzanie czasem pracy, projekt tworzony przez jedną osobę',
+    roles: [
+      {id: 18, validity: 2},
+      {id: 19, validity: 3},
+      {id: 20, validity: 3},
+      {id: 26, validity: 3},
+    ],
+    tasks: [
+      {id: 46, validity: 2},
+      {id: 50, validity: 3},
+      {id: 67, validity: 3},
+      {id: 78, validity: 2},
+      {id: 68, validity: 1},
+      {id: 66, validity: 2},
+    ],
+    products: [
+      {id: 51, validity: 2},
+      {id: 7, validity: 3},
+      {id: 56, validity: 3},
+      {id: 60, validity: 1},
+      {id: 54, validity: 1},
+      {id: 71, validity: 2},
+    ],
+  },
+  {
+    name: 'Prosty manager czasu pracy 3',
+    description: 'Prosta aplikacja webowa pozwalająca na śledzenie i zarządzanie czasem pracy, projekt tworzony przez jedną osobę',
+    roles: [
+      {id: 18, validity: 2},
+      {id: 19, validity: 3},
+      {id: 20, validity: 3},
+      {id: 26, validity: 3},
+    ],
+    tasks: [
+      {id: 46, validity: 2},
+      {id: 50, validity: 3},
+      {id: 67, validity: 3},
+      {id: 78, validity: 2},
+      {id: 68, validity: 1},
+      {id: 66, validity: 2},
+    ],
+    products: [
+      {id: 51, validity: 2},
+      {id: 7, validity: 3},
+      {id: 56, validity: 3},
+      {id: 60, validity: 1},
+      {id: 54, validity: 1},
+      {id: 71, validity: 2},
+    ],
+  },
+  {
+    name: 'Prosty manager czasu pracy 4',
+    description: 'Prosta aplikacja webowa pozwalająca na śledzenie i zarządzanie czasem pracy, projekt tworzony przez jedną osobę',
     roles: [
       {id: 18, validity: 2},
       {id: 19, validity: 3},

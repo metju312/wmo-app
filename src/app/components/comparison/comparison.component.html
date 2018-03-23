@@ -1,33 +1,36 @@
 <mat-card class="comparison-containter">
   <div class="title">Comparison!</div>
-  <div class="details-container mat-elevation-z8" *ngFor='let project of projects'>
-    <mat-list>
-      <h3 mat-subheader>Main info</h3>
-      <h4 mat-line>{{project.name}}</h4>
-      <mat-tab-group>
-        <mat-tab   label="Rules">
-          <div>
-            <mat-list-item *ngFor="let role of project.roles">
-              <h4 mat-line>{{constatns.roles[role.id].name}}</h4>
-            </mat-list-item>
-          </div>
-        </mat-tab>
-        <mat-tab label="Tasks">
-          <div>
-            <mat-list-item *ngFor="let task of project.tasks">
-              <h4 mat-line>{{constatns.tasks[task.id].name}}</h4>
-            </mat-list-item>
-          </div>
-        </mat-tab>
-        <mat-tab label="Products">
-          <div>
-            <mat-list-item *ngFor="let product of project.products">
-              <h4 mat-line>{{constatns.products[product.id].name}}</h4>
-            </mat-list-item>
-          </div>
-        </mat-tab>
-      </mat-tab-group>
-    </mat-list>
+  <div *ngFor='let project of projects;  let i = index'>
+    <div class="details-container mat-elevation-z8" *ngIf="true == compareList[i]">
+      <mat-list>
+        <h3 mat-subheader>Main info</h3>
+        <h4 mat-line>{{project.name}}</h4>
+        <h4 mat-line>{{project.description}}</h4>
+        <mat-tab-group>
+          <mat-tab label="Rules">
+            <div>
+              <mat-list-item *ngFor="let role of project.roles">
+                <h4 mat-line>{{constatns.roles[role.id].name}}</h4>
+              </mat-list-item>
+            </div>
+          </mat-tab>
+          <mat-tab label="Tasks">
+            <div>
+              <mat-list-item *ngFor="let task of project.tasks">
+                <h4 mat-line>{{constatns.tasks[task.id].name}}</h4>
+              </mat-list-item>
+            </div>
+          </mat-tab>
+          <mat-tab label="Products">
+            <div>
+              <mat-list-item *ngFor="let product of project.products">
+                <h4 mat-line>{{constatns.products[product.id].name}}</h4>
+              </mat-list-item>
+            </div>
+          </mat-tab>
+        </mat-tab-group>
+      </mat-list>
+    </div>
   </div>
 </mat-card>
 <button mat-raised-button color="primary" routerLink="" aria-hidden="true">Back</button>

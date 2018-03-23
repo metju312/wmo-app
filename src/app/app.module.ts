@@ -10,6 +10,7 @@ import { ProjectDataStorage } from './services/projectDataStorage';
 import { routing } from "./app.routing";
 import { MaterialModule } from "./modules/material.module";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MAT_CHECKBOX_CLICK_ACTION} from "@angular/material";
 
 
 @NgModule({
@@ -26,7 +27,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     routing
   ],
   providers: [
-      ProjectDataStorage
+      ProjectDataStorage,
+    {provide: MAT_CHECKBOX_CLICK_ACTION, useValue: 'check'}
+
   ],
   bootstrap: [AppComponent]
 })

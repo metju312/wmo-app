@@ -1,7 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Project} from "../../models/project";
 import {ProjectDataStorage} from "../../services/projectDataStorage";
-import {ActivatedRoute} from "@angular/router";
 
 
 @Component({
@@ -15,9 +13,7 @@ export class DetailComponent implements OnInit {
   chosenProject: number;
 
 
-
-  constructor(private projectStorage: ProjectDataStorage,
-              private route: ActivatedRoute) {
+  constructor(private projectStorage: ProjectDataStorage) {
     this.projects = this.projectStorage.getUserData();
     this.constatns = this.projectStorage.getConstants();
     this.chosenProject = this.projectStorage.getDetail();

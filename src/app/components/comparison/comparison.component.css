@@ -1,5 +1,5 @@
 .details-container {
-    width: 500px;
+    width: fit-content;
     display: inline-block;
     margin: 20px;
 }
