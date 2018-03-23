@@ -1,33 +1,28 @@
 <mat-card>
   <div class="title">Details</div>
-  <div class="example-container mat-elevation-z8">
-    <mat-list>
+  <div class="details-container mat-elevation-z8" *ngFor='let project of projects;  let i = index'>
+    <mat-list *ngIf="i == chosenProject">
       <h3 mat-subheader>Main info</h3>
-      <mat-list-item *ngFor="let folder of folders">
-        <h4 mat-line>{{folder.name}}</h4>
-      </mat-list-item>
+      <h4 mat-line>{{project.name}}</h4>
       <mat-tab-group>
-        <mat-tab label="Rules">
+        <mat-tab   label="Rules">
           <div>
-            <h3 mat-subheader>Rules</h3>
-            <mat-list-item *ngFor="let folder of folders">
-              <h4 mat-line>{{folder.name}}</h4>
-            </mat-list-item>
-          </div>
-        </mat-tab>
-        <mat-tab label="Products">
-          <div>
-            <h3 mat-subheader>Products</h3>
-            <mat-list-item *ngFor="let folder of folders">
-              <h4 mat-line>{{folder.name}}</h4>
+            <mat-list-item *ngFor="let role of project.roles">
+              <h4 mat-line>{{constatns.roles[role.id].name}}</h4>
             </mat-list-item>
           </div>
         </mat-tab>
         <mat-tab label="Tasks">
           <div>
-            <h3 mat-subheader>Tasks</h3>
-            <mat-list-item *ngFor="let folder of folders">
-              <h4 mat-line>{{folder.name}}</h4>
+            <mat-list-item *ngFor="let task of project.tasks">
+              <h4 mat-line>{{constatns.tasks[task.id].name}}</h4>
+            </mat-list-item>
+          </div>
+        </mat-tab>
+        <mat-tab label="Products">
+          <div>
+            <mat-list-item *ngFor="let product of project.products">
+              <h4 mat-line>{{constatns.products[product.id].name}}</h4>
             </mat-list-item>
           </div>
         </mat-tab>

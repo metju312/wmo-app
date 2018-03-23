@@ -1,36 +1,16 @@
-<mat-card>
-  <div class="title">PROJECTS</div>
-  <div class="example-container mat-elevation-z8">
-    <mat-table #table [dataSource]="dataSource">
-      <ng-container matColumnDef="name">
-        <mat-header-cell *matHeaderCellDef>Avalaible projects </mat-header-cell>
-        <mat-cell *matCellDef="let element">
-          {{element.name}}
-          <mat-checkbox color="primary"></mat-checkbox>
-          <button mat-raised-button color="primary" routerLink="/detail" aria-hidden="true">detail</button>
-        </mat-cell>
-      </ng-container>
-      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
-      <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
-    </mat-table>
+<mat-card class="comparison-containter">
+  <div class="title">Projects</div>
+  <div class="details-container mat-elevation-z8" *ngFor='let project of projects ; let i = index'>
+    <mat-list>
+      <div>
+        <h4 mat-line>{{project.name}}</h4>
+        <mat-checkbox color="primary"></mat-checkbox>
+        <button mat-raised-button color="primary" (click)="showDetails(i)" aria-hidden="true">details</button>
+      </div>
+
+    </mat-list>
   </div>
   <div class="button-row">
-    <button mat-raised-button color="primary" routerLink="/comparison" aria-hidden="true">comparison</button>
+    <button mat-raised-button color="primary" (click)="compare()" aria-hidden="true">compare</button>
   </div>
-  <ul>
-  <li *ngFor="let item of roles; let i = index">
-    {{i}} {{item.name}}
-  </li>
-</ul>
-<ul>
-<li *ngFor="let item of tasks; let i = index">
-  {{i}} {{item.name}}
-</li>
-</ul>
-<ul>
-<li *ngFor="let item of products; let i = index">
-  {{i}} {{item.name}}
-</li>
-</ul>
-
 </mat-card>
