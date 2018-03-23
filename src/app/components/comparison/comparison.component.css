@@ -4,10 +4,6 @@
     margin: 20px;
 }
 
-div {
-    background=color:blue;
-}
-
 .comparison-containter {
     overflow-x: auto;
     overflow-y: hidden;

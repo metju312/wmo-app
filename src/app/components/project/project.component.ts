@@ -42,6 +42,8 @@ export class ProjectComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.projectStorage.saveChosenList(this.compareList);
+
     // for(let checkbox of this.compareList){
     //   checkbox = false;
     // }

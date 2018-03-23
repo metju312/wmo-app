@@ -2,8 +2,10 @@
   <div class="title">Details</div>
   <div class="details-container mat-elevation-z8" *ngFor='let project of projects;  let i = index'>
     <mat-list *ngIf="i == chosenProject">
-      <h3 mat-subheader>Main info</h3>
+      <h2 mat-subheader>Name</h2>
       <h4 mat-line>{{project.name}}</h4>
+      <h2 mat-subheader>Description</h2>
+      <h4 mat-line>{{project.description}}</h4>
       <mat-tab-group>
         <mat-tab   label="Rules">
           <div>
