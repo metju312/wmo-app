@@ -13,3 +13,15 @@
     <button mat-raised-button color="primary" (click)="compare()" aria-hidden="true">compare</button>
   </div>
 </mat-card>
+<div class="title">roles</div>
+<mat-list-item *ngFor="let role of roles">
+  <h4 mat-line>{{role.name}} {{roles.indexOf(role)}}</h4>
+</mat-list-item>
+<div class="title">tasks</div>
+<mat-list-item *ngFor="let task of tasks">
+  <h4 mat-line>{{task.name}} {{tasks.indexOf(task)}}</h4>
+</mat-list-item>
+<div class="title">products</div>
+<mat-list-item *ngFor="let product of products">
+  <h4 mat-line>{{product.name}} {{products.indexOf(product)}}</h4>
+</mat-list-item>

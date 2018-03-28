@@ -748,7 +748,7 @@ const ELEMENT_DATA: Element[] = [
       {id: 18, validity: 2},
       {id: 19, validity: 3},
       {id: 20, validity: 3},
-      {id: 26, validity: 3},
+      {id: 26, validity: 2},
     ],
     tasks: [
       {id: 46, validity: 2},
@@ -774,7 +774,7 @@ const ELEMENT_DATA: Element[] = [
       {id: 18, validity: 2},
       {id: 19, validity: 3},
       {id: 20, validity: 3},
-      {id: 26, validity: 3},
+      {id: 26, validity: 2},
     ],
     tasks: [
       {id: 46, validity: 2},
@@ -800,7 +800,7 @@ const ELEMENT_DATA: Element[] = [
       {id: 18, validity: 2},
       {id: 19, validity: 3},
       {id: 20, validity: 3},
-      {id: 26, validity: 3},
+      {id: 26, validity: 2},
     ],
     tasks: [
       {id: 46, validity: 2},
@@ -826,7 +826,7 @@ const ELEMENT_DATA: Element[] = [
       {id: 18, validity: 2},
       {id: 19, validity: 3},
       {id: 20, validity: 3},
-      {id: 26, validity: 3},
+      {id: 26, validity: 2},
     ],
     tasks: [
       {id: 46, validity: 2},

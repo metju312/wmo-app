@@ -9,3 +9,23 @@
     overflow-y: hidden;
     white-space: nowrap;
 }
+
+.priority-1 {
+  background: #a9b9c3;
+  color: white;
+  padding: 0.5rem !important;
+  border-radius: 2px;
+}
+
+.priority-2 {
+  background: #3f51b5;
+  color: white;
+  padding: 0.5rem !important;
+  border-radius: 2px;
+}
+
+.priority-3 {
+  background: #a8f1b9;
+  padding: 0.5rem !important;
+  border-radius: 2px;
+}

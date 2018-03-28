@@ -10,21 +10,21 @@
         <mat-tab label="Rules">
           <div>
             <mat-list-item *ngFor="let role of project.roles">
-              <h4 mat-line>{{constatns.roles[role.id].name}}</h4>
+              <h4 mat-line class="{{'priority-'+role.validity}}">{{constatns.roles[role.id].name}}</h4>
             </mat-list-item>
           </div>
         </mat-tab>
         <mat-tab label="Tasks">
           <div>
             <mat-list-item *ngFor="let task of project.tasks">
-              <h4 mat-line>{{constatns.tasks[task.id].name}}</h4>
+              <h4 mat-line class="{{'priority-'+task.validity}}">{{constatns.tasks[task.id].name}}</h4>
             </mat-list-item>
           </div>
         </mat-tab>
         <mat-tab label="Products">
           <div>
             <mat-list-item *ngFor="let product of project.products">
-              <h4 mat-line>{{constatns.products[product.id].name}}</h4>
+                <h4 mat-line class="{{'priority-'+product.validity}}">{{constatns.products[product.id].name}}</h4>
             </mat-list-item>
           </div>
         </mat-tab>
