@@ -4,7 +4,7 @@
   max-height: 500px;
   min-width: 300px;
   overflow: auto;
-
+  margin: 10px 20px 20px 0px;
 }
 
 .mat-table {
@@ -12,4 +12,32 @@
   max-height: 500px;
 }
 
+.margin-bottom-0{
+  margin-bottom: 0px;
+}
 
+.margin-right-16{
+  margin-right: 16px;
+}
+
+.margin-top-30{
+  margin-top: 30px;
+}
+
+.padding-top-0 {
+  padding-top: 0px;
+}
+
+.mat-subheader {
+  padding-bottom: 8px;
+}
+
+.line-content {
+  margin-top: 0px;
+  padding-left: 16px;
+}
+
+.mat-line {
+  word-wrap: break-word !important;
+  white-space: pre-wrap !important;
+}
