@@ -1,9 +1,46 @@
 details-container {
-    width: 500px;
+  width: 500px;
 }
 
 comparison-containter {
-    width: 5000px;
-    color: red;
-    overflow:scroll;
+  width: 5000px;
+  color: red;
+  overflow: scroll;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.margin-bottom-10{
+  margin-bottom: 10px;
+}
+
+.padding-top-0{
+  padding-top: 0px;
+}
+
+.list-content {
+  margin: 0px 20px 20px 20px;
+  padding-bottom: 20px;
+}
+
+.border-left-line{
+  border-left: 5px solid #3f51b5;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.new-line {
+  width: 500px;
+}
+
+.pull-right{
+  float: right;
+}
+
+.details-button{
+  margin-top: 16px;
 }
