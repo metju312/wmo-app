@@ -1,11 +1,11 @@
-<mat-card class="comparison-containter">
-  <div class="title">Comparison!</div>
+<mat-card class="comparison-containter padding-top-0">
+  <div class="title margin-bottom-10">Comparison</div>
   <div class="details-container mat-elevation-z8" *ngFor='let project of chosenProjects'>
     <mat-list>
-      <h2 mat-subheader>Name</h2>
-      <h4 mat-line>{{project.name}}</h4>
-      <h2 mat-subheader>Description</h2>
-      <h4 mat-line>{{project.description}}</h4>
+      <h2 mat-subheader class="subheader">Project name</h2>
+      <h4 mat-line class="line-content margin-bottom-0">{{project.name}}</h4>
+      <h2 mat-subheader class="subheader">Description</h2>
+      <h4 mat-line class="line-content margin-right-16">{{project.description}}</h4>
       <mat-tab-group>
         <mat-tab label="Rules">
           <div>
@@ -31,5 +31,7 @@
       </mat-tab-group>
     </mat-list>
   </div>
+  <div class="button-row">
+    <button mat-raised-button color="primary" routerLink="" aria-hidden="true">Back</button>
+  </div>
 </mat-card>
-<button mat-raised-button color="primary" routerLink="" aria-hidden="true">Back</button>
