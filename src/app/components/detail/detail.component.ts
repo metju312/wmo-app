@@ -1,5 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ProjectDataStorage} from "../../services/projectDataStorage";
+import {HelperComponent} from "../helper/helper.component";
+import {MatDialog} from "@angular/material";
 
 
 @Component({
@@ -13,7 +15,8 @@ export class DetailComponent implements OnInit {
   chosenProject: number;
 
 
-  constructor(private projectStorage: ProjectDataStorage) {
+  constructor(private projectStorage: ProjectDataStorage,
+              public dialog: MatDialog) {
     this.projects = this.projectStorage.getUserData();
     this.constatns = this.projectStorage.getConstants();
     this.chosenProject = this.projectStorage.getDetail();
@@ -22,5 +25,11 @@ export class DetailComponent implements OnInit {
 
   ngOnInit() {
 
+  }
+
+  openHelper() {
+    this.dialog.open(HelperComponent, {
+      data: {parentComponent: 'profile'}
+    });
   }
 }

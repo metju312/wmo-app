@@ -7,7 +7,7 @@
       <h2 mat-subheader class="subheader">Description</h2>
       <h4 mat-line class="line-content margin-right-16">{{project.description}}</h4>
       <mat-tab-group>
-        <mat-tab label="Rules">
+        <mat-tab label="Roles">
           <div>
             <mat-list-item *ngFor="let role of project.roles">
               <h4 mat-line class="{{'priority-'+role.validity}}">{{constatns.roles[role.id].name}}</h4>
@@ -33,5 +33,6 @@
   </div>
   <div class="button-row">
     <button mat-raised-button color="primary" routerLink="" aria-hidden="true">Back</button>
+    <button mat-raised-button color="primary" (click)="openHelper()" aria-hidden="true">Help</button>
   </div>
 </mat-card>
