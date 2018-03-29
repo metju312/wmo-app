@@ -14,7 +14,10 @@
   <div class="button-row">
     <button mat-raised-button color="primary" (click)="compare()" aria-hidden="true">compare</button>
   </div>
-</mat-card>
+</mat-card>=
+<mat-list-item *ngFor="let role of temp">
+  <h4 mat-line>{{transform(role)}}</h4>
+</mat-list-item>
 <div class="title">roles</div>
 <mat-list-item *ngFor="let role of roles">
   <h4 mat-line>{{role.name}} {{roles.indexOf(role)}}</h4>
