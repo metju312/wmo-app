@@ -1,0 +1,177 @@
+Średni projekt:
+	Roles
+		Database Designer 3
+		Designer 3
+		Implementer 3
+		User-Interface Designer 3
+		Project Manager 3
+		Software Architect 2
+		Tester 3
+		System Administrator 2
+		Business Designer 2
+		Test Designer 2
+		Graphic Artist 1
+		Technical Writer 1
+		System Analyst 2
+		Capsule Designer 1
+	Tasks
+		Database Design 3
+		Class Design 3
+		Implement Design Elements 3
+		Design the User Interface 3
+		Implement Developer Test 3
+		Execute Developer Tests 3
+		Set Up Tools 2
+		Integrate System 3 
+		Schedule and Assign Work 3
+		Identify and Assess Risks 1
+		Conduct Review 2
+		Refine a Business Use-Case 2
+		Business Process Analysis 2
+		Use-Case Design 3
+		Identify Design Elements 1
+		Prototype the User-Interface 1
+		Assess and Advocate Quality 1
+		Analyze Test Failure 2
+		Develop Support Materials 2
+		Capsule Design 1
+		Subsystem Design 2
+		Integrate Subsystem 1
+		Develop Support Materials 1
+	Products
+		Data Model 3
+		Design Class 3
+		Implementation Element 3
+		Navigation Map 2 
+		Developer Test 2
+		Test Log 2
+		Software Development Plan 3
+		Test Results 3
+		Design Model 2
+		Tools 2
+		Build 2
+		Risk List 2
+		Workspace 3
+		Business Case 1
+		Risk Management Plan 1
+		Work Order 2
+		Vision 3
+		Analysis Class 2
+		Business Use Case Model 2
+		Implementation Subsystem 2
+		Test Log 2
+		User Support Material 1
+Duży projekt:
+	Roles
+		Database Designer 3
+		Designer 3
+		Implementer 3
+		User-Interface Designer 3
+		Project Manager 3
+		Software Architect 3
+		Tester 3
+		System Administrator 3
+		Business Designer 2
+		Test Designer 3
+		Graphic Artist 2
+		Technical Writer 2
+		Process Engineer 3
+		Tool SPecialist 1
+		Change Control Manager 2
+		Integrator 2
+		Management Reviewer 1
+		Reviewer 3
+		Test Analyst 2
+		Business Designer 3
+		Capsule Designer 2
+		Business-Process Analyst 2
+		Security Architect 2
+		Deployment Manager 2
+	Tasks
+		Database Design 3
+		Class Design 3
+		Implement Design Elements 3
+		Design the User Interface 3
+		Implement Developer Test 3
+		Execute Developer Tests 3
+		Set Up Tools 2
+		Integrate System 3 
+		Schedule and Assign Work 3
+		Identify and Assess Risks 1
+		Conduct Review 3
+		Refine a Business Use-Case 2
+		Business Process Analysis 2
+		Use-Case Analysis 2
+		Use-Case Design 3
+		Identify Design Elements 1
+		Prototype the User-Interface 1
+		Assess and Advocate Quality 1
+		Analyze Test Failure 2
+		Develop Support Materials 2
+		Write Release Notes 1
+		Launch Development Process 2
+		Prepare Guidelines for the Project 1
+		Create Development Workspace 2
+		Submit Change Request 2
+		Make Changes 3
+		Create Deployment Unit 2
+		Assess Iteration 2
+		Monitor Project Status 1
+		Conduct Review 2
+		Message Design 1
+		Design Testability Elements 1
+		Operation Design 2
+		Implement Testability Elements 2
+		Plan Subsystem Integration 1
+		Prototype the User-Interface 2
+		Define Test Details 3
+		Identify Test Ideas 2
+		Obtain Testability Commitment  2
+		Develop Support Materials 3
+		Write Release Notes 2
+		Develop Iteration Plan 2
+	Products
+		Data Model 3
+		Design Class 3
+		Implementation Element 3
+		Navigation Map 2 
+		Developer Test 2
+		Test Log 2
+		Software Development Plan 3
+		Test Results 3
+		Design Model 2
+		Tools 2
+		Build 2
+		Development Process 1
+		Project-Specific Guidelines 2
+		Project-Specific Templates 2
+		Change Request 2
+		Manual Styleguide 3
+		Design Class 7
+		Workspace 3
+		Project Repository 3
+		Configuration Audit Findings 2
+		Configuration Management Plan 1
+		Deployment Unit 2
+		Project Measurements 2
+		Business Case 3
+		Issues List 2
+		Iteration Assessment 3
+		Iteration Plan 2
+		Risk List 3
+		Risk Management Plan 2
+		Software Development Plan 2
+		Storyboard 2
+		Supplementary Specifications 1
+		Use-Case Model 3
+		Use-Case Package 3
+		Vision 3
+		Test Results 3
+		Software Architecture Document 3
+		Software Requirement 2
+		Supplementary Business Specification 1
+		Testability Element 2
+		Test Automation Architecture 1
+		Test Case 2
+		Test Data 3
+Duży projekt rozproszony:
